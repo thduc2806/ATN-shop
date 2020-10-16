@@ -1,0 +1,31 @@
+
+.input-field-container {
+    display: flex;
+    flex-direction: column;
+    padding: "500px";
+    width: "40px";
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #002b41;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.input-field-title {
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}

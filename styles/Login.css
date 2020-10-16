@@ -1,0 +1,22 @@
+.form-container{
+    min-height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005682;
+}
+
+.login-form-container {
+    width: 400px;
+    background-color: #002234;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-button {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
