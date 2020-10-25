@@ -1,10 +1,10 @@
 import React from 'react'
 import { Form, Input, Button, Checkbox } from 'antd';
 import Head from "next/Head";
-import Link from "next/Link"
+import Link from "next/link"
 
-//component
-import InputField from '../component/InputField'
+//components
+import InputField from '../components/InputField'
 
 
 const Login: React.FC = (props) => {

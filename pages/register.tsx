@@ -1,10 +1,9 @@
 import React from 'react'
 import { Form, Input, Button, Checkbox } from 'antd';
 import Head from "next/Head";
-import Link from "next/Link"
 
-//component
-import InputField from '../component/InputField'
+//components
+import InputField from '../components/InputField'
 
 
 const Register: React.FC = (props) => {

@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../component/NavBar";
-import Footer from "../component/Footer";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 //css
 import '../styles/Login.css'
 import '../styles/NavBar.css'

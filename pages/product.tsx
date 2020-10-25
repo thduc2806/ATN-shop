@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {Button, Select} from 'antd';
 import Head from "next/Head";
 import {useRouter} from 'next/router'
-//component
+//components
 
 
 const AddProduct: React.FC = (props) => {
