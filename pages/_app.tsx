@@ -1,3 +1,4 @@
+import React from "react";
 import NavBar from "../component/NavBar";
 import Footer from "../component/Footer";
 //css
@@ -14,13 +15,13 @@ import {Affix} from "antd";
 
 function MyApp({Component, pageProps}) {
     return (
-        <>
+        <div>
             <Affix>
                 <NavBar />
             </Affix>
             <Component {...pageProps} />
             <Footer/>
-        </>
+        </div>
     )
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const InputField: React.FC<InputFieldProps> = ({title, placeholder, type, onChange}) => {
+const InputField: React.FC<InputFieldProps> = ({title, placeholder, type}) => {
     return (
         <div className="input-field-container">
             <text className="input-field-title">{title}</text>
@@ -13,7 +13,6 @@ interface InputFieldProps {
     title: string;
     placeholder: string;
     type: string;
-    onChange: string;
 }
 
 export default InputField;
