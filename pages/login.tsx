@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Input, Button, Checkbox } from 'antd';
-import Head from "next/Head";
+import Head from "next/head";
 import Link from "next/link"
 
 //components

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {Button, Select} from 'antd';
-import Head from "next/Head";
+import Head from "next/head";
 import {useRouter} from 'next/router'
 //components
 
