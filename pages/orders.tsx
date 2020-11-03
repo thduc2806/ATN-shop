@@ -1,13 +1,14 @@
 import React, {useState, useEffect} from "react";
 import {Card, Col, Row, Button} from 'antd';
 import {useRouter} from "next/router";
+import Url from '../utils/Url'
 
 
 const Orders: React.FC = () => {
     const router = useRouter()
     const [order, setOrder] = useState([])
     const getOrder = async () => {
-        const response = await fetch('http://localhost:3000/api/orders/get-orders', {
+        const response = await fetch(`${Url}/api/orders/get-orders`, {
             method: 'GET',
             headers: {
                 Accept: 'application/json',

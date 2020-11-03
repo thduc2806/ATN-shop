@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import {Button, Select} from 'antd';
 import Head from "next/head";
 import {useRouter} from 'next/router'
+import Url from '../utils/Url'
 //components
 
 
@@ -17,7 +18,7 @@ const AddProduct: React.FC = (props) => {
     const [categories, setCategories] = useState([]);
     const router = useRouter()
     const postProduct = async () => {
-        const response = await fetch('http://localhost:3000/api/product/add-product', {
+        const response = await fetch(`${Url}/api/product/add-product`, {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
@@ -37,7 +38,7 @@ const AddProduct: React.FC = (props) => {
     }
 
     const getBrand = async () => {
-        const response = await fetch('http://localhost:3000/api/brand/get-brand', {
+        const response = await fetch(`${Url}/api/brand/get-brand`, {
             method: 'GET',
             headers: {
                 Accept: 'application/json',
@@ -49,7 +50,7 @@ const AddProduct: React.FC = (props) => {
     }
 
     const getCategory = async () => {
-        const response = await fetch('http://localhost:3000/api/category/get-category', {
+        const response = await fetch(`${Url}/api/category/get-category`, {
             method: 'GET',
             headers: {
                 Accept: 'application/json',

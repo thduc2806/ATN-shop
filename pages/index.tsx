@@ -2,11 +2,13 @@ import React, {useState, useEffect} from "react";
 import Head from "next/head"
 import {Card, Row, Col, Button, Layout, Carousel} from 'antd';
 import {ShoppingCartOutlined} from '@ant-design/icons'
+import fetch from 'node-fetch'
+import Url from '../utils/Url'
 
 const Home: React.FC = () => {
     const [products, setProducts] = useState([]);
     const getProducts = async () => {
-        const response = await fetch('http://localhost:3000/api/product/get-product', {
+        const response = await fetch(`${Url}/api/product/get-product`, {
             method: 'GET',
             headers: {
                 Accept: 'application/json',

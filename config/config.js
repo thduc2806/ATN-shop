@@ -1,11 +1,11 @@
 import {Client} from 'pg';
 
 const Config = new Client({
-    user: "fxfvtisvufysuq",
-    password: "ff251211bae2bbfaa7237e870781413ef30978efa62b0c49e946cf106b8db8e8",
-    database: "d6mjrsea7ov2a2",
+    user: "bwljchfwuqsxbx",
+    password: "3832395121d458ad2bd607e5e477ca4bffebf992a6d6e1e2a6261c940fed5554",
+    database: "d289ofnsp83pif",
     port: 5432,
-    host: "ec2-75-101-232-85.compute-1.amazonaws.com",
+    host: "ec2-52-206-15-227.compute-1.amazonaws.com",
     ssl: true,
     requestCert: true,
     agent: false,
